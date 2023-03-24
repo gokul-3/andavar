@@ -450,12 +450,12 @@ const Home = () => {
       <Product_Sidebar />
       <Footer1 />
 
-      <div className='slidercont'>
+      {/* <div className='slidercont'>
         <ProductsSlider products={products} categoryname='Related Products' />
       </div>
       <div className='slidercont'>
         <ProductsSlider products={products} categoryname='Explore More' />
-      </div>
+      </div> */}
       <Footer2 />
     </div>
   )

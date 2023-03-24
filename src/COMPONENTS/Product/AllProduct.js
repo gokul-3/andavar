@@ -1,15 +1,18 @@
 import React from 'react'
 import ProductCard from './ProductCard'
-import img1 from '../../ASSETS/Products/1.png'
-import img2 from '../../ASSETS/Products/2.png'
-import img3 from '../../ASSETS/Products/3.png'
-import img4 from '../../ASSETS/Products/4.png'
+import img1 from '../../ASSETS/aaavin.png'
+import img2 from '../../ASSETS/cavin.png'
+import img3 from '../../ASSETS/heritage.png'
+import img5 from '../../ASSETS/govind.png'
+import img4 from '../../ASSETS/arokya.png'
+import img6 from '../../ASSETS/jersey.png'
+
 import './AllProduct.css'
 const AllProduct = () => {
     const products = [
         {
             "ProductId": 1,
-            "ProductName": "Product 1",
+            "ProductName": "Aavin",
             "ProductDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
             "ProductImage": [
                 {
@@ -18,11 +21,11 @@ const AllProduct = () => {
                 },
                 {
                     id: 2,
-                    image: img2
+                    image: img1
                 },
                 {
                     id: 3,
-                    image: img3
+                    image: img1
                 }
             ],
             "ProductCode": "P1",
@@ -80,7 +83,7 @@ const AllProduct = () => {
         },
         {
             "ProductId": 2,
-            "ProductName": "Product 2",
+            "ProductName": "Cavin",
             "ProductDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
             "ProductImage": [
                 {
@@ -89,11 +92,11 @@ const AllProduct = () => {
                 },
                 {
                     id: 2,
-                    image: img1
+                    image: img2
                 },
                 {
                     id: 3,
-                    image: img3
+                    image: img2
                 }
             ],
             "ProductCode": "P1",
@@ -151,7 +154,7 @@ const AllProduct = () => {
         },
         {
             "ProductId": 3,
-            "ProductName": "Product 3",
+            "ProductName": "Heritage",
             "ProductDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
             "ProductImage": [
                 {
@@ -160,7 +163,7 @@ const AllProduct = () => {
                 },
                 {
                     id: 2,
-                    image: img2
+                    image: img3
                 },
                 {
                     id: 3,
@@ -221,21 +224,21 @@ const AllProduct = () => {
             ]
         },
         {
-            "ProductId": 1,
-            "ProductName": "Product 1",
+            "ProductId": 4,
+            "ProductName": "Arokya",
             "ProductDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
             "ProductImage": [
                 {
                     id: 1,
-                    image: img1
+                    image: img4
                 },
                 {
                     id: 2,
-                    image: img2
+                    image: img4
                 },
                 {
                     id: 3,
-                    image: img3
+                    image: img4
                 }
             ],
             "ProductCode": "P1",
@@ -292,21 +295,21 @@ const AllProduct = () => {
             ]
         },
         {
-            "ProductId": 2,
-            "ProductName": "Product 2",
+            "ProductId": 5,
+            "ProductName": "Govind",
             "ProductDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
             "ProductImage": [
                 {
                     id: 1,
-                    image: img2
+                    image: img5
                 },
                 {
                     id: 2,
-                    image: img1
+                    image: img5
                 },
                 {
                     id: 3,
-                    image: img3
+                    image: img5
                 }
             ],
             "ProductCode": "P1",
@@ -363,21 +366,21 @@ const AllProduct = () => {
             ]
         },
         {
-            "ProductId": 3,
-            "ProductName": "Product 3",
+            "ProductId": 6,
+            "ProductName": "Jersey",
             "ProductDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
             "ProductImage": [
                 {
                     id: 1,
-                    image: img3
+                    image: img6
                 },
                 {
                     id: 2,
-                    image: img2
+                    image: img6
                 },
                 {
                     id: 3,
-                    image: img3
+                    image: img6
                 }
             ],
             "ProductCode": "P1",

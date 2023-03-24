@@ -1,5 +1,5 @@
 import React from 'react'
-import veges from '../../ASSETS/veges.png'
+import veges from '../../ASSETS/dairy.jpeg'
 import './Footer1.css'
 const Footer1 = () => {
     return (
@@ -8,10 +8,10 @@ const Footer1 = () => {
                 <img src={veges} alt='veges' />
             </div>
             <div className='right'>
-                <h1>Fresh Vegetables & Fruits at your doorstep
+                <h1>Fresh Milk & Milk Products at your doorstep
                 </h1>
-                <p>We deliver fresh vegetables & fruits at your doorstep.
-                    We deliver fresh vegetables & fruits at your doorstep.
+                <p>
+                    
                 </p>
             </div>
         </div>

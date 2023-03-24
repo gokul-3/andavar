@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import './Navbar.css'
-import logo from '../../ASSETS/logo.png'
+import logo from '../../ASSETS/logo.jpeg'
 import Dropdown from 'react-bootstrap/Dropdown'
 import { Link } from 'react-router-dom'
 const Navbar = ({ reloadnavbar }) => {
@@ -75,13 +75,12 @@ const Navbar = ({ reloadnavbar }) => {
                 </Link>
                 <Dropdown>
                     <Dropdown.Toggle variant="" id="dropdown-basic">
-                        Categories
+                        Products
                     </Dropdown.Toggle>
 
                     <Dropdown.Menu>
-                        <Dropdown.Item href="#/action-1">Fresh Vegetables</Dropdown.Item>
-                        <Dropdown.Item href="#/action-2">Fresh Fruits</Dropdown.Item>
-                        <Dropdown.Item href="#/action-3">House Cleaning</Dropdown.Item>
+                        <Dropdown.Item href="/milk">Fresh Milk</Dropdown.Item>
+                        <Dropdown.Item href="#/action-2">Dairies</Dropdown.Item>
                     </Dropdown.Menu>
                 </Dropdown>
                 <Link to='/about'>
@@ -90,7 +89,7 @@ const Navbar = ({ reloadnavbar }) => {
                 <Link to='/contact'>
                     <a>Contact Us</a>
                 </Link>
-                <Dropdown>
+             {/* <Dropdown>
                     <Dropdown.Toggle variant="" id="dropdown-basic">
                         More
                     </Dropdown.Toggle>
@@ -103,8 +102,8 @@ const Navbar = ({ reloadnavbar }) => {
                         <Dropdown.Item href="#/action-3">
                             Terms & Conditions
                         </Dropdown.Item>
-                    </Dropdown.Menu>
-                </Dropdown>
+                    </Dropdown.Menu>  
+    </Dropdown>*/}
             </div>
         </nav>
     )
